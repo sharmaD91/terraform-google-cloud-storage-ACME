@@ -39,7 +39,7 @@ variable "randomize_suffix" {
 variable "location" {
   description = "Bucket location."
   type        = string
-  default     = "EU"
+  default     = "us-central1"
 }
 
 variable "storage_class" {
