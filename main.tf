@@ -47,7 +47,7 @@ resource "google_storage_bucket" "buckets" {
  labels = merge(
     var.labels,
     {
-      company = "ACME"
+      company = "acme"
     }
   )
   public_access_prevention = var.public_access_prevention
