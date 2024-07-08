@@ -1,4 +1,4 @@
-# Terraform Google Cloud Storage Module
+# Terraform Google Cloud Storage Module - ACME Customize
 
 This module makes it easy to create one or more GCS buckets, and assign basic permissions on them to arbitrary users.
 
@@ -6,16 +6,6 @@ The resources/services/activations/deletions that this module will create/trigge
 
 - One or more GCS buckets
 - Zero or more IAM bindings for those buckets
-
-If you only wish to create a single bucket, consider using the
-[simple bucket](modules/simple_bucket) submodule instead.
-
-## Compatibility
-This module is meant for use with Terraform 0.13+ and tested using Terraform 1.0+. If you find incompatibilities using Terraform >=0.13, please open an issue.
- If you haven't
-[upgraded](https://www.terraform.io/upgrade-guides/0-13.html) and need a Terraform
-0.12.x-compatible version of this module, the last released version
-intended for Terraform 0.12.x is [v1.7.1](https://registry.terraform.io/modules/terraform-google-modules/-cloud-storage/google/v1.7.1).
 
 ## Usage
 
